@@ -17,8 +17,19 @@ class Homepage extends StatelessWidget {
         title: Text("Great"),
 
       ),
-      body: Container(
-        child: Text("Hi Experts"),
+      body: Center(
+        child: Container(
+          height: 100,
+          width: 100,
+          padding: const EdgeInsets.all(8),
+          alignment: Alignment.center,
+          clipBehavior: Clip.antiAlias,
+          decoration: BoxDecoration(
+              color: Colors.purple,
+            shape: BoxShape.circle,
+          ),
+          child: Text("Flutter expert"),
+        ),
       ),
     );
   }
