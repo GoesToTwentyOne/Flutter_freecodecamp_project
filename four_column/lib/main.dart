@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget{
         ),
         body: Container(
           height: 500,
+          width: 500,
           color: Colors.black,
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Container(
                 height: 100,
