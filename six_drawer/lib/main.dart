@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-main()=>runApp(MyApp());
+main()=>runApp(const MyApp());
 class MyApp extends StatelessWidget{
   const MyApp({Key? key}):super(key: key);
   @override
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Experts"),
+          title: const Text("Experts"),
         ),
         body: Center(
           child: Container(
@@ -20,17 +20,14 @@ class MyApp extends StatelessWidget{
         ),
    floatingActionButton: FloatingActionButton(
      onPressed: (){
-
      },
-     child: Icon(Icons.edit),
+     child: const Icon(Icons.edit),
    ),
         drawer: Drawer(
           child: ListView(
             
-            children: [
+            children: const [
               DrawerHeader(child: Text("Looking Good"),)
-
-
             ],
           ),
 
